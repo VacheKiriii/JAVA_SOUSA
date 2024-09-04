@@ -1,3 +1,5 @@
+// Sousa Mathys 04/09/2024 TP Exploratoire
+
 public class Voyage {
     private String destination ;
     private int duree ;
