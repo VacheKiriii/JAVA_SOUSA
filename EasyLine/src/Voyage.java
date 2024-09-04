@@ -1,4 +1,4 @@
-// Sousa Mathys 04/09/2024 TP Exploratoire
+// Sousa Mathys / 04/09/2024 / TP Exploratoire
 
 public class Voyage {
     private String destination ;
