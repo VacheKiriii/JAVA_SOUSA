@@ -7,7 +7,7 @@
 
 
 ### Utilisateur :
-    -utilisateur (id : int(3), login : varchar(30), mdp : varchar(256), nom : varchar(30), prenom : varchar(30), dateEmbauche : datetime, role : enum("ADMIN",             "EMPLOYE"))
+    - utilisateur (id : int(3), login : varchar(30), mdp : varchar(256), nom : varchar(30), prenom : varchar(30), dateEmbauche : datetime, role : enum("ADMIN",             "EMPLOYE"))
     - Clé primaire : id 
     - Clé étrangère : aucune
     - Champs unique : aucun
