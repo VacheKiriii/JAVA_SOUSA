@@ -37,3 +37,10 @@ public class Main {
         System.out.println("Trajet 2 : " + trajet2);
     }
 }
+
+@Override
+public String toString() {
+    return "Utilisateur{id=" + id + ", login='" + login + "', nom='" + nom + "', prenom='" + prenom + 
+           "', dateEmbauche=" + dateEmbauche + ", role=" + role + "}";
+}
+
