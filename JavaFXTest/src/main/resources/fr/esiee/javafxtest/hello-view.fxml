@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<VBox alignment="CENTER" prefHeight="323.0" prefWidth="248.0" style="-fx-background-color: FFD;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.esiee.javafxtest.HelloController">
+   <children>
+      <Label text="Accueil">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Separator opacity="0.0" orientation="VERTICAL" prefHeight="48.0" prefWidth="5.0" style="-fx-background-color: eb8951;" />
+      <HBox alignment="TOP_CENTER">
+         <children>
+            <Label prefHeight="27.0" prefWidth="36.0" text="Nom : " />
+            <Separator opacity="0.0" prefHeight="4.0" prefWidth="17.0" />
+            <TextField fx:id="tf_inputName" alignment="CENTER" prefHeight="29.0" prefWidth="145.0" promptText="Ecrire votre nom ici !" />
+         </children>
+      </HBox>
+   
+     <Label fx:id="l_welcomeText" alignment="CENTER" prefHeight="42.0" prefWidth="231.0" />
+     <Button alignment="BOTTOM_CENTER" onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="48.0" text="Hello!" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
