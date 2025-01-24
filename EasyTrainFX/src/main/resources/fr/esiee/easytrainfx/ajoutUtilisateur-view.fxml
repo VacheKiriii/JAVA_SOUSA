@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.esiee.easytrainfx.AjoutUtilisateurController" spacing="10" alignment="CENTER">
+    <GridPane hgap="10" vgap="10">
+        <Label text="Nom:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <TextField fx:id="nomField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+        <Label text="Prénom:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <TextField fx:id="prenomField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+        <Label text="Rôle:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <ComboBox fx:id="roleComboBox" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+        <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+        <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    </GridPane>
+
+    <Button text="Réinitialiser" onAction="#handleReinitialiser"/>
+    <Button text="Ajouter Utilisateur" onAction="#handleAjouterUtilisateur"/>
+
+    <Label fx:id="messageLabel" textFill="RED"/>
+</VBox>
